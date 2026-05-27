@@ -29,3 +29,11 @@ This project implements modern reliability engineering and DevOps practices:
 First, install the dependencies using `pnpm` (required for monorepo speed):
 ```bash
 pnpm install
+
+## Run the development server:
+```bash
+pnpm dev
+
+## Open http://localhost:3000 with your browser to see the result.
+
+* **Since the backend relies on Supabase and Vercel Functions[cite: 42], do you need to add a step in these instructions for developers to set up their `.env` files with database API keys before running the server?.
